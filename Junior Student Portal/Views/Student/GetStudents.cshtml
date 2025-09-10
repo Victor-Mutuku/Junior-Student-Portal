@@ -1,0 +1,38 @@
+﻿@using Junior_Student_Portal
+@model IEnumerable<Student>
+@{
+    ViewBag["Title"] = "GetStudents";
+}
+
+<h3>List of Students</h3>
+<div class="container-fluid">
+    <div class="row">
+        <table class="table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var student in Model)
+                {
+                    <tr>
+                        <td>@student.Id</td>
+                        <td>@student.Name</td>
+                        <td>@student.Phone</td> 
+                        <td>@student.Email</td>
+                        <td>@student.Age</td>
+                        
+                        <a asp-action="Edit" asp-route-id="@student.Id" class="btn btn-primary">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@student.Id" class="btn btn-danger">Delete</a>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
