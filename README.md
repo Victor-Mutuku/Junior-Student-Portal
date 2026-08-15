@@ -31,16 +31,14 @@ This project implements a student management system where users can **create, vi
 ---
 
 ## Project Structure
-Junior Student Portal/
-├── Controllers/ # Handles HTTP requests and coordinates between Models and Views
-├── Models/ # Represents the student data structure
-├── Views/ # Razor views for the user interface
-├── Services/ # Business logic, injected via DI
-└── Junior Student Portal.sln
 
+- `Controllers/` — Handles HTTP requests and coordinates between Models and Views
+- `Models/` — Represents the student data structure
+- `Views/` — Razor views for the user interface
+- `Services/` — Business logic, injected via DI
+- `Junior Student Portal.sln` — Solution file
 
-*(Update this structure to match your actual folder layout.)*
-
+*(Update this list to match your actual folder layout.)*
 ---
 
 ## Skills Demonstrated
