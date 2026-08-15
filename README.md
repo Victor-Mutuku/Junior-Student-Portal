@@ -31,3 +31,39 @@ This project implements a student management system where users can **create, vi
 ---
 
 ## Project Structure
+Junior Student Portal/
+├── Controllers/ # Handles HTTP requests and coordinates between Models and Views
+├── Models/ # Represents the student data structure
+├── Views/ # Razor views for the user interface
+├── Services/ # Business logic, injected via DI
+└── Junior Student Portal.sln
+
+
+*(Update this structure to match your actual folder layout.)*
+
+---
+
+## Skills Demonstrated
+
+- **Object-Oriented Programming in C#**
+- **MVC Architecture:** Separation of concerns between Controllers, Models, and Views
+- **Dependency Injection:** Registering and resolving services rather than hardcoding dependencies
+- **CRUD Operations:** Full lifecycle management of student data
+- **.NET Development Workflow:** Using Visual Studio and the .NET build/run pipeline
+
+---
+
+## Getting Started
+
+1. Clone the repository:
+git clone https://github.com/Victor-Mutuku/Junior-Student-Portal.git
+
+2. Open `Junior Student Portal.sln` in Visual Studio.
+3. Restore NuGet packages.
+4. Build and run the project.
+
+---
+
+## About
+
+A learning project built to practice ASP.NET MVC fundamentals and Dependency Injection in a real, working application.
