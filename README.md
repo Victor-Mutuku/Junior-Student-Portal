@@ -38,7 +38,7 @@ This project implements a student management system where users can **create, vi
 - `Services/` — Business logic, injected via DI
 - `Junior Student Portal.sln` — Solution file
 
-*(Update this list to match your actual folder layout.)*
+*(Update this structure to match your actual folder layout.)*
 ---
 
 ## Skills Demonstrated
